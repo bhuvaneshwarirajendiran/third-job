@@ -1,5 +1,5 @@
 # Use the official Tomcat 10.1.26 image with JDK 21 from the Docker Hub
-FROM tomcat:10.1.26-jdk21
+FROM tomcat:10.1.25-jdk21
 
 # Set the working directory in the container
 WORKDIR /usr/local/tomcat
